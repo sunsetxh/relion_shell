@@ -10,7 +10,7 @@ INPUT_FILE=all_shl2_82725.star
 
 REF=atp-160.mrc
 
-GPU=8,9
+GPU=6,7,8,9
 
 
 
