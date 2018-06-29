@@ -2,15 +2,15 @@ DIR=~/workdir/20180110_data/ADP_data_snf2
 
 DATE=$(date +%Y%m%d%H%M)
 
-JOB_NAME=job008
+JOB_NAME=job009
 
 OUTPUT_FILE=std_Class3D_${JOB_NAME}_${DATE}.out
 
-INPUT_FILE=Refine3D/job003/run_data.star
+INPUT_FILE=Refine3D/job004/run_data.star
 
-REF=adp-200.mrc
+REF=atp-200.mrc
 
-GPU=6,7
+GPU=8,9
 
 
 
