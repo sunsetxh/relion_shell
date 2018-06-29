@@ -2,15 +2,15 @@ DIR=~/workdir/20180110_data/ADP_data_snf2
 
 DATE=$(date +%Y%m%d%H%M)
 
-JOB_NAME=job003
+JOB_NAME=job004
 
 OUTPUT_FILE=std_Refine3D_${JOB_NAME}_${DATE}.out
 
 INPUT_FILE=particles_1.32cor2_b200_all159141.star
 
-REF=adp-200.mrc
+REF=atp-200.mrc
 
-GPU=12,13,14,15
+GPU=0,1,2,3
 
 
 

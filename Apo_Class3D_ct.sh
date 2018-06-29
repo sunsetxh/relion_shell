@@ -2,13 +2,13 @@ DIR=~/workdir/20180110_data/Apo_data_snf2
 
 DATE=$(date +%Y%m%d%H%M)
 
-JOB_NAME=job007
+JOB_NAME=job008
 
 OUTPUT_FILE=std_Class3D_ct_${JOB_NAME}_${DATE}.out
 
-INPUT_FILE=Class3D/job007/run_it001_optimiser.star
+INPUT_FILE=Class3D/${JOB_NAME}/run_it001_optimiser.star
 
-GPU=4,5
+GPU=10,11
 
 
 
